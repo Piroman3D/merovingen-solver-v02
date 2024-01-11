@@ -42,13 +42,18 @@ python ./spectre/spectre.py
 ## [TRAINING RESULTS]
 
 ### Training summary:
+Green samples shows predicted function. Blue samples shows the dataset the neural network was trained.
+Current dataset contains prediction samples of 1D sinusoidal wave. And was trained to predict sinus wave samples.
 ![Training Summary](/train_results/Summary_2023-09-24-19-17.png?raw=true "Training Summary")
 
 ### Training details:
+In many trained cases, the algorythm showed good ability to extrapolate dataset. Initial dataset contains training information only in range from -1.0 to 1.0
 ![Training Details](/train_results/Model_v02_IOL_V08_2023-09-03-07-57.png?raw=true "Training Details")
 
 ### Activation function comparison
+Activation function comparison. Blue line is the activation function, and violet line is it's first derivative
 ![Activation Comparison](/train_results/activations_x_y_dx.png?raw=true "Activation Comparison")
 
 ### Spectre conversion
+Sample image of the information compression by the spectre algroythm. This can be considered as the method for quatization/dequantization. Currently the algorythm is not used during the training process, but should significantly reduce amount redundand information during neural network training.
 ![Spectre Encoding](/spectre/birch.spectre.png?raw=true "Spectre Encoding")
