@@ -23,17 +23,18 @@ As an emerging breakthrough technology, artificial intelligence is releasing hug
 ```
 * conda activate tf2.15			# Activate prepared environment
 * python ./plot_models.py		# Run the comparison test on the AI model training. Training resulting plots will be saved to ./traininfo
-* python ./config.py			# Configuration file for the running test.
 * python ./plot_activations.py	# Plots activation function comparison.
 * python ./plot_spectre.py		# Plots spectre convertion and saves sample image to ./spectre.xxx.png
+* python ./config.py			# Configuration file for the running test.
 ```
 
 ## [SPECTRE]
 
 Algorythm for packing/unpacking encoding/decoding data/information with losses. The resulting test images will be saved to the ./spectre directory
 
+```
 python ./spectre/spectre.py
-
+```
 
 ## [TRAINING RESULTS]
 
