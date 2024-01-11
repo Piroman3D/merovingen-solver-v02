@@ -44,6 +44,8 @@ python ./spectre/spectre.py
 ### Training summary:
 Green samples shows predicted function. Blue samples shows the dataset the neural network was trained.
 Current dataset contains prediction samples of 1D sinusoidal wave. And was trained to predict sinus wave samples.
+
+Horizontal axis is training time in seconds. The grey line shows the fastest fit of the dataset.
 ![Training Summary](/train_results/Summary_2023-09-24-19-17.png?raw=true "Training Summary")
 
 ### Training details:
