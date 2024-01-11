@@ -3,6 +3,20 @@
 # [DESCRIPTION]
 AI : Merovingen Solver Library
 
+This project is related to neural network functionality and implements range of custom layers that together helps to achieve higher efficiecy during neural network training process. The core neural network consists of the follwing layers:
+1. IOLActivation | ./layers/iolactivation_v08.py
+	Custom activation function as a replacement for siren, snake, and relu activations.
+2. MemBlock 	 | ./layers/memblock.py 
+	Functional layer implementing memory functionality for the neural network. The layer affects the neural network both at input and output of data, that enchances training capabilities of the network. On each step the neural network is self adjusting it's weights located in  memory allocated area. As well as after training step backpropagation process helps to adjust its weight too in combination with model self adjustment.
+3. ModulatedConv2D | ./layers/modconv.py 
+	Modulated convolution layer based on the x input and style input, the layer is based on Nvidia solution for GANs, but features different implementation to achieve better compatibility with other layers and focuses on 1D modulated convolution, for 1D signal processing.
+4. PhyBlock | ./layers/phyblock.py
+	Physical constant memory storage that is passed through densely connected layer, to achieve required ratios of the physical constants that can be involved in the data processing.
+5. Snake 	| ./layers/snake.py	
+	Activation function by Tensorflow authors for comparison of the approaches and results.
+6. SpectralDense | ./spectredense.py
+	Spectral Dense layer, based on the densely connected layer and ./spectre/spectre.py algorythm to reduce the weight count required for traing.
+
 If you have any question about using this code or these algorythms for your own purposes, including adaptation to FPGA, subject to financing perspective technologes, or if you would like to financially support the project development, feel free to contact me with email or direct message.
 
 Currently for the lack of ability to sign in for patenting these algorythms, they are published for reviewing.
