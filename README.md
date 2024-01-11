@@ -13,7 +13,10 @@ As an emerging breakthrough technology, artificial intelligence is releasing hug
 
 ## [ENVIRONMENT]
 ```
-* conda create --name tf2.15 python=3.11	# Create conda environment with tensorflow 2.15 version. Current version is not updapted for tensorflow 2.16 and keras versions.
+# Create conda environment with tensorflow 2.15 version.
+# Current version is not updapted for tensorflow 2.16 and keras versions.
+
+* conda create --name tf2.15 python=3.11
 * pip install tensorflow		# Or build from source: http://tensorflow.com
 * pip install pillow			# Library to work with images
 * pip install matplotlib 		# Library for plotting charts and diagrams
