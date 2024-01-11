@@ -5,7 +5,7 @@ AI : Merovingen Solver Library
 
 If you have any question about using this code or these algorythms for your own purposes, including adaptation to FPGA, subject to financing perspective technologes, or if you would like to financially support the project development, feel free to contact me with email or direct message.
 
-Currently for the lack of ability to sign in for patenting the these algorythms, they are published for reviewing.
+Currently for the lack of ability to sign in for patenting these algorythms, they are published for reviewing.
 
 Special thanks to the person, who supported me all this time morally, but wished to remain without mentioning.
 
