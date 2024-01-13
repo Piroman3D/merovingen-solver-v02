@@ -1,4 +1,4 @@
-# merovingen-solver-v02
+l# merovingen-solver-v02
 
 # [DESCRIPTION]
 AI : Merovingen Solver Library
@@ -75,4 +75,4 @@ Sample image of the information compression by the spectre algroythm. This can b
 ![Spectre Encoding](/spectre/birch.spectre.png?raw=true "Spectre Encoding")
 
 ## [NOTICE]
-The Merovingen Solver source code or its parts and derivatives are prohibited for usage in harmful actions or actions that can lead directly or indirectly to harm yourselves or others, including harmful actions in financial, civil relations and other fields.
+The Merovingen Solver source code or its parts and derivatives are prohibited for usage in harmful actions or actions that can lead directly or indirectly to harm or damage yourselves or others, including harmful or damaging actions in financial, civil relations and other fields.
