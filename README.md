@@ -73,3 +73,6 @@ Activation function comparison. Blue line is the activation function, and violet
 ### Spectre conversion
 Sample image of the information compression by the spectre algroythm. This can be considered as the method for quatization/dequantization. Currently the algorythm is not used during the training process, but should significantly reduce amount redundand information during neural network training.
 ![Spectre Encoding](/spectre/birch.spectre.png?raw=true "Spectre Encoding")
+
+## [NOTICE]
+The Merovingen Solver source code or its parts and derivatives are prohibited for usage in harmful actions or actions that can lead directly or indirectly to harm yourselves or others, including harmful actions in financial, civil relations and other fields.
