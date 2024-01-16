@@ -11,7 +11,7 @@ AI : Merovingen Solver Library
 
 This project is related to neural network functionality and implements range of custom layers that together helps to achieve higher efficiecy during neural network training process. The core neural network consists of the follwing layers:
 1. IOLActivation | ./layers/iolactivation_v08.py
-	Custom activation function as a replacement for siren, snake, and relu activations.
+	Custom activation function.
 2. MemBlock 	 | ./layers/memblock.py 
 	Functional layer implementing memory functionality for the neural network. The layer affects the neural network both at input and output of data, that enchances training capabilities of the network. On each step the neural network is self adjusting it's weights located in  memory allocated area. As well as after training step backpropagation process helps to adjust its weight too in combination with model self adjustment.
 3. ModulatedConv2D | ./layers/modconv.py 
