@@ -77,7 +77,7 @@ Activation function comparison. Blue line is the activation function, and violet
 ![Activation Comparison](/train_results/activations_x_y_dx.png?raw=true "Activation Comparison")
 
 ### Spectre conversion
-Sample image of the information compression by the spectre algroythm. This can be considered as the method for quatization/dequantization. Currently the algorythm is not used during the training process, but should significantly reduce amount redundand information during neural network training.
+Sample image of the information compression by the spectre algroythm. This can be considered as the method for quatization/dequantization. Currently the algorythm is not used during the training process, but should significantly reduce or induce amount of redundand information during neural network training.
 ![Spectre Encoding](/spectre/birch.spectre.png?raw=true "Spectre Encoding")
 
 ## [NOTICE]
