@@ -1,4 +1,4 @@
-l# merovingen-solver-v02
+# merovingen-solver-v02
 
 # [DESCRIPTION]
 AI : Merovingen Solver Library
