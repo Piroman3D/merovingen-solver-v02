@@ -38,6 +38,7 @@ As an emerging breakthrough technology, artificial intelligence is releasing hug
 
 * conda create --name tf2.15 python=3.11
 * pip install tensorflow==2.15		# Or build from source: http://tensorflow.com
+* [recomended] Or use conda -c conda-forge install tensorflow=2.15 # make sure tensorflow is installed with GPU support.
 * pip install pillow			        # Library to work with images
 * pip install matplotlib 		      # Library for plotting charts and diagrams
 ```
