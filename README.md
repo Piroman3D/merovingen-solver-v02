@@ -29,7 +29,7 @@ Currently for the lack of ability to sign in for patenting these algorythms, the
 
 Special thanks to the person, who supported me all this time morally, but wished to remain without mentioning.
 
-As an emerging breakthrough technology, artificial intelligence is releasing huge energy accumulated by the technological revolution and industrial transformation, profoundly changing the way of human production tools, lifestyle and thinking, and has a significant and far-reaching impact on economic development and progress
+> 人工智能作为一种新兴颠覆性技术，正在释放科技革命和产业变革积蓄的巨大能量，深刻改变着人类生产生活方式和思维方式，对经济发展、社会进步等方面产生重大而深远的影响。
 
 ## [ENVIRONMENT]
 ```
